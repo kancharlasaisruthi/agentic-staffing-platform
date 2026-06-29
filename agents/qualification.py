@@ -1,6 +1,5 @@
 """
-Qualification Agent — the second agent you asked to be built with real
-depth, alongside Hiring Intelligence.
+Qualification Agent 
 
 Scores each company as a staffing-sales prospect using an explicit,
 weighted, fully explainable rubric (not just an LLM vibe-score with no

@@ -1,6 +1,5 @@
 """
-Hiring Intelligence Agent — THE most important agent per the spec, and the
-one you asked to be built with real depth.
+Hiring Intelligence Agent — THE most important agent per the spec.
 
 Goal: produce a company-level hiring summary (never individual job
 listings) covering total open positions, role-family breakdowns
