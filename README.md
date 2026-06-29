@@ -248,4 +248,4 @@ Two settings control this:
   signal counts, never as the cited source in the final report.
 
 ## Documentation
-![alt](sc/agentic%20staffing%20platform.pdf)
+[📄 View the Documentation](sc/agentic%20staffing%20platform.docx)
