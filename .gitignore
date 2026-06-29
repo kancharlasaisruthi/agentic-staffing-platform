@@ -9,3 +9,4 @@ venv/
 data/decisions.json
 data/*.tmp
 tests/
+tests

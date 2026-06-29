@@ -121,8 +121,6 @@ staffing-platform/
 │       ├── discovery.py                    # main pipeline dashboard (sidebar, run button, company cards)
 │       ├── approved.py                      # read-only view of approved companies (from data/decisions.json)
 │       └── rejected.py                       # read-only view of rejected companies (from data/decisions.json)
-├── tests/
-│   └── test_smoke.py
 ├── requirements.txt
 ├── .env.example
 └── README.md
