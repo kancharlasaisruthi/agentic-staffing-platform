@@ -249,4 +249,5 @@ Two settings control this:
 
 ## Documentation
 Download here - [📄 View the Documentation](sc/agentic%20staffing%20platform.docx)
-view - 
+
+view - [View directly](sc/documentation.md)
