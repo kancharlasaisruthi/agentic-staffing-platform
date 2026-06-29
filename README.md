@@ -240,9 +240,4 @@ Two settings control this:
   source. Indeed/Glassdoor results are deliberately excluded from primary
   evidence per the platform's rules and only referenced as corroborating
   signal counts, never as the cited source in the final report.
-- **Re-running discovery in the same session won't find NEW companies**
-  if the Planner considers every "need" already satisfied (Market Trigger
-  and Company Discovery each only run once per run unless their outputs
-  are cleared). Click **Reset Run** to start a fresh discovery cycle with
-  new searches — but expect a different mix of companies each time, since
-  search results aren't deterministic across calls.
+
