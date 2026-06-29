@@ -10,9 +10,13 @@ state), **Tavily** for live web search, and **Groq** for fast LLM-based
 extraction. No paid enrichment APIs (Clearbit/Apollo/PDL/Crunchbase) are
 wired in yet — see "Extending" below for where to plug them in.
 
-![alt text](sc\Screenshot 2026-06-29 100141.png)
+![alt text](image-2.png)
 ![alt text](image-1.png)
-
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 ## Why this design
 
 - **Planner-driven, not a fixed pipeline.** The Planner Agent inspects shared
