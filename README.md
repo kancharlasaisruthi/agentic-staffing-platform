@@ -10,19 +10,19 @@ state), **Tavily** for live web search, and **Groq** for fast LLM-based
 extraction. No paid enrichment APIs (Clearbit/Apollo/PDL/Crunchbase) are
 wired in yet — see "Extending" below for where to plug them in.
 
-![Home page](sc\Screenshot 2026-06-29 100141.png)
+![Home page](sc/Screenshot 2026-06-29 100141.png)
 
-![Results](sc\Screenshot 2026-06-29 102418.png)
+![alt text](sc/Screenshot 2026-06-29 102418.png)
 
-![alt text](sc\Screenshot 2026-06-29 102435.png)
+![alt text](sc/Screenshot 2026-06-29 102435.png)
 
-![alt text](sc\Screenshot 2026-06-29 102452.png)
+![alt text](sc/Screenshot 2026-06-29 102452.png)
 
-![alt text](sc\Screenshot 2026-06-29 102613.png)
+![alt text](sc/Screenshot 2026-06-29 102613.png)
 
-![alt text](sc\Screenshot 2026-06-29 102651.png)
+![alt text](sc/Screenshot 2026-06-29 102651.png)
 
-![alt text](sc\Screenshot 2026-06-29 102701.png)
+![alt text](sc/Screenshot 2026-06-29 102701.png)
 
 ## Why this design
 
