@@ -8,4 +8,3 @@ venv/
 .DS_Store
 data/decisions.json
 data/*.tmp
-sc
