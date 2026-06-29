@@ -1,0 +1,21 @@
+# Core orchestration
+langgraph==1.2.6
+langchain-core==1.4.8
+
+# Search & LLM
+tavily-python==0.7.26
+groq==1.5.0
+
+# Config & validation
+pydantic==2.13.4
+PyYAML==6.0.3
+
+# UI
+streamlit==1.58.0
+pandas==3.0.2
+
+# Env loading
+python-dotenv==1.0.1
+
+# Testing (optional, dev-only)
+pytest==9.1.1

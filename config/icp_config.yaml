@@ -1,0 +1,27 @@
+# Staffing Prospect Intelligence — ICP Configuration
+# This file is the ONLY thing you should need to edit to retarget the
+# platform at a new industry or business domain. No code changes required.
+
+industry: "Technology"
+
+icp:
+  employee_size_min: 100
+  employee_size_max: null
+  locations:
+    - "United States"
+  hiring_focus:
+    - "Software Engineers"
+    - "Backend Engineers"
+    - "AI Engineers"
+    - "Data Scientists"
+
+hiring_threshold: 20
+
+target_personas:
+  - "Head of Talent Acquisition"
+  - "VP Engineering"
+  - "HR Director"
+  - "CTO"
+
+max_companies: 15
+search_depth: "basic"   # "basic" (cheaper/faster) or "advanced" (deeper, costs more credits)
