@@ -10,6 +10,9 @@ state), **Tavily** for live web search, and **Groq** for fast LLM-based
 extraction. No paid enrichment APIs (Clearbit/Apollo/PDL/Crunchbase) are
 wired in yet — see "Extending" below for where to plug them in.
 
+![alt text](sc\Screenshot 2026-06-29 100141.png)
+![alt text](image-1.png)
+
 ## Why this design
 
 - **Planner-driven, not a fixed pipeline.** The Planner Agent inspects shared
@@ -17,7 +20,7 @@ wired in yet — see "Extending" below for where to plug them in.
   next agent via LangGraph's `Command(goto=...)` mechanism. Add a new agent,
   register it with the planner's routing table, and it's part of the loop —
   no graph rewiring.
-- **Config, not code, defines the business domain.** `config/icp_config.yaml`
+- **Config, defines the business domain.** `config/icp_config.yaml`
   holds the ICP, industry, hiring thresholds, target personas. Point the
   same platform at a different vertical (e.g. healthcare staffing) by
   editing YAML, not Python.
@@ -25,13 +28,6 @@ wired in yet — see "Extending" below for where to plug them in.
   state object threaded through the whole graph: companies seen, companies
   enriched, per-company agent outputs, a search-query cache. Every agent
   checks memory before calling out to the web.
-- **Depth where it matters.** Per your priorities, **Hiring Intelligence**
-  and **Qualification** are fully implemented with real multi-source search,
-  LLM-based extraction, and an explainable scoring rubric. The other agents
-  (Market Trigger, Decision Maker, Contact Enrichment, Company Enrichment,
-  Recommendation) are implemented but lighter-weight — functional, single
-  search pass, simpler extraction — so they're obvious to deepen later
-  without restructuring anything.
 
 ## Architecture
 
@@ -101,7 +97,8 @@ staffing-platform/
 │   ├── search.py                  # Tavily wrapper, domain allow/deny lists
 │   ├── llm.py                      # Groq client wrapper for extraction
 │   ├── persistence.py               # local JSON store for approve/reject decisions
-│   └── graph.py                       # builds & compiles the LangGraph
+│   ├──graph.py                       # builds & compiles the LangGraph
+│   └── email_drafter.py 
 ├── config/
 │   ├── icp_config.yaml               # the ONLY file you edit to retarget domains
 │   └── schema.py                       # pydantic validation of the config
