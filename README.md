@@ -1,4 +1,4 @@
-# Staffing Prospect Intelligence Platform
+# Agentic Staffing Platform
 
 A reusable, planner-driven agentic platform that discovers companies actively
 hiring and qualifies them as staffing/recruiting sales prospects — not a job
@@ -247,3 +247,5 @@ Two settings control this:
   evidence per the platform's rules and only referenced as corroborating
   signal counts, never as the cited source in the final report.
 
+## Documentation
+![alt](sc/agentic%20staffing%20platform.pdf)
